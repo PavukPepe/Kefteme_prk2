@@ -1,0 +1,25 @@
+.TV{
+   min-height: 100vh; 
+   text-align: center;
+}
+
+.moov {
+    position: absolute;
+    z-index: 3; /* помещаем .gold-box поверх .green-box и .dashed-box */
+    height: 60%;
+    width: 50%;
+    left: 19%;
+    top: 15%;
+}
+
+.aux{
+    position: absolute;
+    z-index: 3; /* помещаем .gold-box поверх .green-box и .dashed-box */
+    width: 50%;
+    left: 19%;
+    top: 92%;
+}
+
+.aux::before{
+    content: "../img/tv-png-the-whole-enchilada-the-whole-enchilada-9.jpeg";
+}
